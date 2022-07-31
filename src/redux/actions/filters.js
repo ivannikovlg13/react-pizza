@@ -4,6 +4,6 @@ export const setSortBy = (sortIndex) => ({
 });
 
 export const setCategory = (catIndex) => ({
-  type: 'SET_SORT_BY',
+  type: 'SET_CATEGORY',
   payload: catIndex,
 });
