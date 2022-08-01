@@ -6,7 +6,9 @@
   margin-bottom: 65px;
 
   &:not(:nth-of-type(4n)) {
-    margin-right: 35px;
+    @media screen and (max-width: 768px) {
+      margin: 0 auto;
+    }
   }
 
   &__image {
@@ -48,8 +50,8 @@
           border-radius: 5px;
           cursor: auto;
         }
-        &.disabled{
-          opacity:0.4;
+        &.disabled {
+          opacity: 0.4;
           pointer-events: none;
         }
       }
