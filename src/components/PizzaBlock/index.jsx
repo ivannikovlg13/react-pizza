@@ -16,7 +16,6 @@ function PizzaBlock({ name, imageUrl, price, types, sizes }) {
   const onSizeItem = (index) => {
     setActiveSize(index);
   };
-
   return (
     <div className="pizza-block">
       <img className="pizza-block__image" src={imageUrl} alt="Pizza" />
